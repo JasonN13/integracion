@@ -6,19 +6,19 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
     <div className="container-fluid">
-        <a className="navbar-brand" href="/EmpleadoDP">Empleados por Departamento </a>
+        <a className="navbar-brand" href="/">EXamen DEsarrolloweb2</a>
      
         <ul className="nav">
             <li className="nav-item">
-                <Link className="nav-link active" href="/NombreDP">Nombre de Empleados por Departamento </Link>
+                <Link className="nav-link active" href="/Marca">Cantidad de productos por marca</Link>
             </li>
             <li className="nav-item">
-                <Link   className="nav-link active" href="/SalarioDP">  Salario Por Departamento </Link>
+                <Link   className="nav-link active" href="/Categoria">Valor total por categoria</Link>
           
             </li>
           
             <li className="nav-item">
-                <Link className="nav-link" href="/">Inicio</Link>
+                <Link className="nav-link" href="/ValorCategoria">Valor de Productos por categopria</Link>
             </li>
           
         </ul>
